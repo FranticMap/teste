@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+.galeria, .frases, .videos {
+    padding: 20px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
